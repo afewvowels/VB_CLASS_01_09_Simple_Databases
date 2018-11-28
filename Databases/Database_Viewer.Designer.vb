@@ -179,7 +179,7 @@ Partial Class Database_Viewer
         'TitleLabel
         '
         TitleLabel.AutoSize = True
-        TitleLabel.Location = New System.Drawing.Point(246, 53)
+        TitleLabel.Location = New System.Drawing.Point(226, 28)
         TitleLabel.Name = "TitleLabel"
         TitleLabel.Size = New System.Drawing.Size(30, 13)
         TitleLabel.TabIndex = 13
@@ -190,7 +190,7 @@ Partial Class Database_Viewer
         Me.TitleListBox.DataSource = Me.BooksBindingSource
         Me.TitleListBox.DisplayMember = "Title"
         Me.TitleListBox.FormattingEnabled = True
-        Me.TitleListBox.Location = New System.Drawing.Point(282, 53)
+        Me.TitleListBox.Location = New System.Drawing.Point(262, 28)
         Me.TitleListBox.Name = "TitleListBox"
         Me.TitleListBox.Size = New System.Drawing.Size(324, 225)
         Me.TitleListBox.TabIndex = 14
@@ -199,7 +199,7 @@ Partial Class Database_Viewer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(808, 312)
+        Me.ClientSize = New System.Drawing.Size(607, 275)
         Me.Controls.Add(TitleLabel)
         Me.Controls.Add(Me.TitleListBox)
         Me.Controls.Add(ISBNLabel)
